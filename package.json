@@ -1,10 +1,10 @@
 {
-  "name": "graphql",
+  "name": "graphqlserver",
   "version": "1.0.0",
   "description": "\"A graphQl tutorial\"",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "GraphQl"
@@ -13,6 +13,11 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "express-graphql": "^0.12.0"
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
