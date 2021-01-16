@@ -10,5 +10,9 @@
     "GraphQl"
   ],
   "author": "Santosh Pandey",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0"
+  }
 }
